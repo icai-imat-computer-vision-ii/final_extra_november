@@ -5,7 +5,7 @@ from collections.abc import Callable
 import torch
 from torch import Tensor
 
-from .boundary_attack import BoundaryAttackResult, Predictor
+from src.adv.boundary_attack import BoundaryAttackResult, Predictor
 
 ProposalDistribution = Callable[[Tensor, torch.Generator], Tensor]
 

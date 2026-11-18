@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 import torch
 from torch.utils.data import DataLoader, Subset
 
-from final_extra.src.surface.config import USE_VECTORIZED, config
-from final_extra.src.surface.dataset import NYUDepthV2
-from final_extra.src.surface.loss import CosineDistance, VectorizedCosineDistance
-from final_extra.src.surface.model import UNet
-from final_extra.src.surface.train import Trainer
+from src.surface.config import USE_VECTORIZED, config
+from src.surface.dataset import NYUDepthV2
+from src.surface.loss import CosineDistance, VectorizedCosineDistance
+from src.surface.model import UNet
+from src.surface.train import Trainer
 
 
 def load_datasets() -> tuple[Subset, Subset, Subset]:

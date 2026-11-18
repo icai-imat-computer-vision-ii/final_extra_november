@@ -8,8 +8,8 @@ import torch
 from torch import Tensor
 from torchvision.models import ResNet18_Weights, resnet18
 
-from .boundary_attack import BoundaryAttack
-from .utils import load_coco_images, plot_attack_effect
+from src.adv.boundary_attack import BoundaryAttack
+from src.adv.utils import load_coco_images, plot_attack_effect
 
 
 def main() -> None:

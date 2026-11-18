@@ -5,10 +5,10 @@ import torch
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from final_extra.src.surface.config import USE_VECTORIZED, TrainingConfig
-from final_extra.src.surface.early_stopping import EarlyStopping
-from final_extra.src.surface.loss import CosineDistance, VectorizedCosineDistance
-from final_extra.src.surface.model import UNet
+from src.surface.config import USE_VECTORIZED, TrainingConfig
+from src.surface.early_stopping import EarlyStopping
+from src.surface.loss import CosineDistance, VectorizedCosineDistance
+from src.surface.model import UNet
 
 
 class Trainer:

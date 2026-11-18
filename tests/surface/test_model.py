@@ -6,8 +6,8 @@ from types import SimpleNamespace
 import pytest
 import torch
 
-from final_extra.src.surface import main
-from final_extra.src.surface.dataset import NYUDepthV2
+from src.surface import main
+from src.surface.dataset import NYUDepthV2
 
 
 def test_model_configuration(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:

@@ -6,10 +6,10 @@ import pytest
 import torch
 from torch.utils.data import DataLoader, TensorDataset
 
-from final_extra.src.surface.config import USE_VECTORIZED, TrainingConfig
-from final_extra.src.surface.loss import CosineDistance, VectorizedCosineDistance
-from final_extra.src.surface.model import UNet
-from final_extra.src.surface.train import Trainer
+from src.surface.config import USE_VECTORIZED, TrainingConfig
+from src.surface.loss import CosineDistance, VectorizedCosineDistance
+from src.surface.model import UNet
+from src.surface.train import Trainer
 
 IN_CHANNELS = 3
 OUT_CHANNELS = 3

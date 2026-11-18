@@ -2,8 +2,8 @@
 
 import torch
 
-from final_extra.src.surface.dataset import NYUDepthV2
-from final_extra.src.surface.loss import CosineDistance, VectorizedCosineDistance
+from src.surface.dataset import NYUDepthV2
+from src.surface.loss import CosineDistance, VectorizedCosineDistance
 
 
 def test_cosine_distances() -> None:
